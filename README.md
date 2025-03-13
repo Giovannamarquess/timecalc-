@@ -7,6 +7,7 @@ Aplicação web simples e intuitiva que permite calcular a diferença entre duas
 ## 🚀 Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML
+- CSS
 - JavaScript
 - Git e Github
 
