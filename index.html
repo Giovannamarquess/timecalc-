@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Calculadora de Diferença de Datas</title>
+    <title>Calculadora de Tempo</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <label for="dataInicial">Data Inicial:</label>
-    <input type="datetime-local" id="dataInicial"><br><br>
-
-    <label for="dataFinal">Data Final:</label>
-    <input type="datetime-local" id="dataFinal"><br><br>
-
-    <button onclick="calcularDiferenca()">Calcular Diferença</button><br><br>
-
-    <div id="resultado"></div>
-
+    <div class="container">
+        <h1>Calculadora de Tempo</h1>
+        <div class="input-group">
+            <label for="dataInicial">Data inicial:</label>
+            <input type="datetime-local" id="dataInicial">
+        </div>
+        <div class="input-group">
+            <label for="dataFinal">Data final:</label>
+            <input type="datetime-local" id="dataFinal">
+        </div>
+        <button onclick="calcularDiferenca()">Calcular diferença</button>
+        <div id="resultado"></div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
